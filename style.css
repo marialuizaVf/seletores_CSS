@@ -32,3 +32,22 @@ main{
 input[type="password"]{
     font-size: 3rem;
 }
+
+/*seletor pos descendente*/
+.login-form input {
+    font-size:2rem ;
+    color:red ;
+
+}
+/*seletor de filho*/
+.login-form> input{
+    color: #0f0;
+    width: 10rem;
+
+}
+/*pseudo classes*/
+.cadastro-form div:nth-of-type(2){
+   background:blue ;
+
+
+}
