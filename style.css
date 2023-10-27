@@ -1,0 +1,34 @@
+/*seletor global= selecioana TODOS os elementos da pagina ou de determinado lugar*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*seletor pelo tag*/
+p{
+    color: red;
+}
+main{
+    margin-top: 1rem;
+
+}
+/*seletor pela classes*/
+
+.paragrafo{
+    border: 1px solid #0ff;
+    color:#00f;
+    margin-top: 1rem;
+}
+/*seletor por id*/
+#titulo{
+    color: #0f0;
+    margin-bottom: 1rem;
+}
+/*seletor pelo atributo*/
+input[type="password"]{
+    font-size: 3rem;
+}
